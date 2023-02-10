@@ -41,6 +41,18 @@ article{
     text-align: justify;
     flex: 1 1 200px; /*flex-grow, flex-shrink, flex-basis */
 }
+article:nth-of-type(1){
+    order: 3;
+}
+article:nth-of-type(2){
+    order: 2;
+}
+article:nth-of-type(3){
+    order: 5;
+}
 article:nth-of-type(4){
-    flex-grow: 10;
+    order: 1;
+}
+article:nth-of-type(5){
+    order: 4;
 }
